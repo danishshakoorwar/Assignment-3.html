@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration and Sign-in form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #008080;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="checkbox"] {
+            margin-top: 8px;
+        }
+
+        input[type="submit"] {
+            background-color: #008080;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005555;
+        }
+    </style>
+</head>
+<body>
+    <h2>Sign-up</h2>
+    <form action="#" method="post"></form>
+    <label for="firstname">First Name:
+    <input type="text" id="firstname"placeholder="Danish" name="firstname" required minlength="3"
+    maxlength="30"/>
+</label>
+<br>
+<label for="lastname">Last Name:
+    <input type="text" id="lastname" placeholder="Shakoor" name="lastname" required minlength="3" maxlength="30"/>
+
+</label>
+<br>
+<label for="Email">Email:
+    <input type="text" id="Email" placeholder="email@gmail.com" name="email" required minlength="03"maxlength="40"/>
+
+</label>
+<br>
+<label for="Password">Password:
+    <input type="text" id="Password" placeholder="Password" name="Password" required minlength="06" maxlength="10"/>
+</label>
+<br>
+<label for="Confirm Password"> Confirm Password:
+    <input type="text" id="Confirm Password" placeholder="Confirm Password" name="ConfirmPassword" required  minlength="06" maxlength="10"/>
+</label>
+<br>
+<label for="Age">Age:
+    <input type="text" id="Age" placeholder="Age" name="Age" required/>
+</label>
+<br>
+<label for="gender">Gender:</label>
+<select id="gender" name="gender" required>
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+</select>
+
+<br>
+<input type="checkbox" id="termsAndConditions" name="termsAndConditions" required>
+    <label for="termsAndConditions">I agree to the terms and conditions</label>
+
+    <input type="submit" value="Sign Up">
+        
+
+
+
+
+
+</label>
+</body>
+</html>
